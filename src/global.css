@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: gray;
+}
+
+.mainContainer{
+    height: 400px;
+    width: 400px;
+    margin: 100px 450px;
+    background-color: #e32464;
+    color: aliceblue;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+}
+
+legend{
+    font-size: 30px;
+    margin-left: 45px;
+    font-family: algerian;
+}
+
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+button{
+    border: none;
+    border-radius: 5px;
+    margin-left: 150px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-size: medium;
+}
+
+input{
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: aliceblue;
+}
